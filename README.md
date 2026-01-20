@@ -1,10 +1,10 @@
 # Medical Insurance Charges Prediction (RBF Regressor)
 
-This project applies a **Radial Basis Function (RBF) Network** combined with **Kernel Ridge Regression (KRR)** to predict medical insurance costs using demographic and health-related features like age, BMI, smoking status, and region. The model captures complex non-linear patterns through RBF transformations and clustering, showing the power of kernel-based methods in real-world healthcare analytics. Built as part of a **Problem-Based Learning** module at NMAM Institute of Technology.
+This project utilizes a **Radial Basis Function (RBF) Network** in conjunction with **Kernel Ridge Regression (KRR)** to predict medical insurance costs based on demographic and health-related features, including age, BMI, smoking status, and region. The model captures complex non-linear patterns through RBF transformations and clustering, showing the power of kernel-based methods in real-world healthcare analytics. Built as part of a **Problem-Based Learning** module at NMAM Institute of Technology.
 
 ---
 
-## 🚀 Overview
+## Overview
 
 * **Tech Stack:**
 
@@ -16,9 +16,9 @@ This project applies a **Radial Basis Function (RBF) Network** combined with **K
     
 ---
 
-## 🧩 Project Structure & Flow
+## Project Structure & Flow
 
-### 1️⃣ Data Preprocessing
+### Data Preprocessing
 
 * **Features:**
   
@@ -39,7 +39,7 @@ This project applies a **Radial Basis Function (RBF) Network** combined with **K
 
 ---
 
-### 2️⃣ RBF Regressor (Kernel Ridge Regression)
+### RBF Regressor (Kernel Ridge Regression)
 
 **Core Idea:**
 - Uses **RBF kernel** to map input to higher dimensions.
@@ -53,7 +53,7 @@ This project applies a **Radial Basis Function (RBF) Network** combined with **K
 
 ---
 
-### 3️⃣ Evaluation
+### Evaluation
 
 * **Metrics:**
   
@@ -63,7 +63,7 @@ This project applies a **Radial Basis Function (RBF) Network** combined with **K
 
 ---
 
-## 📊 Results
+## Results
 
 
 | Metric | Training | Testing |
@@ -73,13 +73,13 @@ This project applies a **Radial Basis Function (RBF) Network** combined with **K
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 This project demonstrates the use of **RBF networks with Kernel Ridge Regression** to tackle a real-world regression problem in insurance cost estimation. It highlights how feature engineering (clustering + kernel methods) can improve model performance in complex datasets.
 
 ---
 
-## 📂 References
+## References
 
 - Kaggle Medical Insurance Dataset.
 - Claesen et al. — Fast prediction with SVM RBF kernels.
@@ -88,7 +88,7 @@ This project demonstrates the use of **RBF networks with Kernel Ridge Regression
 
 ---
 
-## 📌 To Do / Extensions
+## To Do / Extensions
 
 - Add GridSearch for hyperparameter tuning (`alpha`, `gamma`).
 - Compare with other kernel methods (SVM with RBF, GPR).
@@ -97,16 +97,14 @@ This project demonstrates the use of **RBF networks with Kernel Ridge Regression
 
 ---
 
-## 🏫 Institution
+## Institution
 
 NMAM Institute of Technology, Nitte (Deemed to be University)
 
 ---
 
-## 📜 License
+## License
 
-This work is for **educational use only** and not intended for production or commercial deployment.
+This work is intended for **educational use only** and is not suitable for production or commercial deployment.
 
 ---
-
-**Stay curious, and may your RBFs cover all clusters while your errors stay minimal!**
